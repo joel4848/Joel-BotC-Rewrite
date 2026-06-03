@@ -6,4 +6,4 @@ $tellraw @a [{"bold":true,"italic":true,"color":"dark_red","nbt":"player_$(playe
 
 schedule function extras:al_hadikhia/title_second 200t
 
-execute as @a run playsound ambient.cave master @s ~ ~ ~ 1 0.5
+execute as @a at @s run playsound ambient.cave master @s ~ ~ ~ 1 0.5
