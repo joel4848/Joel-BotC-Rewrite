@@ -34,7 +34,9 @@ execute as @e[type=xercapaint:easel,tag=house_easel] run data modify entity @e[t
 
 # Revive everyone
 
+scoreboard players set #is_kill_execution temp 0
 function players:kill_revive/revive_all
+function players:graves/remove_all_graves
 
 # Make nametags visible
 

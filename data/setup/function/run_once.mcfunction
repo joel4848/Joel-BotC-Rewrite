@@ -64,6 +64,7 @@ scoreboard objectives add InLibrary dummy
 scoreboard objectives add InPumpkin dummy
 scoreboard objectives add InCrematorium dummy
 scoreboard objectives add InCemetary dummy
+scoreboard objectives add player_grave dummy
 
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
@@ -165,6 +166,9 @@ scoreboard players set #doorbell_crematorium_cooldown temp 0
 # Sets misc scoreboard scores required by the datapack/FancyMenu
 
 scoreboard players set #give_dead_players_heads temp 1
+scoreboard players set #is_kill_execution temp 0
+scoreboard players set #is_kill_slayer_shot temp 0
+scoreboard players set #is_kill_psychopath temp 0
 
 # Gives required IDs to the votelights
 
